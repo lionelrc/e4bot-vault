@@ -136,3 +136,29 @@ Mathématiques, statistiques, logique.
 - Un tag parent seul est autorisé quand aucun sous-tag existant ne convient.
 - Hermes s'arrête et signale tout tag non présent dans ce fichier
 avant de l'utiliser.
+---
+
+## Tags de claims
+
+Utilisés inline dans le corps des notes, companions, et drafts.
+Format : `[TAG — attributionoptionnelle]`
+
+- `[SOURCE — Outlet, Auteur, Date]` — fait sourcé, attribution vérifiable
+- `[NON VÉRIFIÉ — <source approximative>]` — source non confirmée ou de mémoire
+- `[LACUNE]` — information manquante, jamais comblée par de la spéculation
+
+Règle absolue : une `[LACUNE]` n'est jamais remplacée par une inférence présentée comme fait.
+Si l'information ne peut pas être sourcée, formuler comme inférence explicite :
+"cela suggérerait…", "si cela tient, alors…" — jamais comme assertion.
+
+---
+
+## Tags de contradiction
+
+Utilisés inline quand deux sources ou cadres s'opposent. Ne jamais lisser.
+
+- `[CONTRADICTION FACTUELLE]` — deux sources affirment des faits incompatibles
+- `[CONTRADICTION INTERPRÉTATIVE]` — deux sources tirent des conclusions opposées des mêmes faits
+- `[TENSION NON RÉSOLUE]` — deux cadres d'analyse coexistent sans qu'on puisse trancher
+
+Si une synthèse est demandée, la proposer marquée comme interprétation, pas comme résolution.
