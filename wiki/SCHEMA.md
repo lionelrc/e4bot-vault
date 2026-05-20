@@ -5,7 +5,6 @@ status: active
 created: 2026-05-11
 updated: 2026-05-18
 ---
-
 # Vault Schema
 
 Fichier de reference pour Hermes et le skill llm-wiki.
